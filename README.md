@@ -47,9 +47,9 @@ After capturing all the images, the code will automatically calculate the transf
 ## Other Notices
 - Pose trasformation for kortex gen3 robotic arm:
 Because of the special return value of kortex gen3 api, if you are using kinove gen3 robotic arm, the outcome of the calibration will be on the gripper base's coordinate order and located in robot base's coordinate instead of just on the robot base's coordinate system as usual.
-Therefore, the specific pose that was being transformated by the transformation matrix needs to be modified accordingly.
-For example, refer to the code in `pose_trasform_example.py` to modify the pose accordingly.
+Therefore, the specific pose that was being transformated by the transformation matrix needs to be modified accordingly./
+For example, refer to the code in `pose_trasform_example.py` to modify the pose correctly.
 
 - Board position ulteration:
-Because user is using the central of the aruco board as the gripper's reference point, the transformated grasp position should be adjusted to be in the center of the gripper's fingers.
-For example, refer to the code in `pose_trasform_example.py` to modify the pose accordingly.
+Because user is using the central of the aruco board as the gripper's reference point, the transformated grasp position should be adjusted to be in the center of the gripper's fingers./
+For example, refer to the code in `pose_trasform_example.py` to modify the pose correctly.
