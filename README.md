@@ -1,6 +1,6 @@
 ##  HandEye_calibrate：hand to eye calibration using OpenCV
 
-**hand2eye_calibrate.py** is a Python implementation of hand-eye calibration using OpenCV. The code is based on [webpage](https://blog.csdn.net/qq_40016998/article/details/121099134) and designed to work with a kortex gen3 robotic arm with the Robotiq 2-Finger Grippers-85 and a realsense D435i camera.
+**hand2eye_calibrate.py** is a Python implementation of hand to eye calibration using OpenCV. The code is based on [webpage](https://blog.csdn.net/qq_40016998/article/details/121099134) and designed to work with a kortex gen3 robotic arm with the Robotiq 2-Finger Grippers-85 and a realsense D435i camera.
 
 The code takes in the images of a aruco board grabbed by the robotic arm's end-effector, and outputs the transformation matrix that maps the camera's coordinates to the robot base's coordinates and saves it as the calibration.txt file.
 
@@ -16,7 +16,6 @@ conda activate calibrate
 - Install other dependencies:
 ```Shell
 pip install -r requirements.txt
-python3 -m pip install <whl relative fullpath name>.whl
 ```
  
 - Install realsense and kortex sdk if needed:
